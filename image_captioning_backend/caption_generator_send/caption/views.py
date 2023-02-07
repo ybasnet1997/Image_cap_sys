@@ -44,7 +44,7 @@ def capt_gen(switcher):
     
     elif (switcher=='Attention'):
 
-        model = load_model(os.path.join(settings.BASE_DIR, "model/model_sub_68_Att.h5"), custom_objects={
+        model = load_model(os.path.join(settings.BASE_DIR, "model/model_sub_60_Att.h5"), custom_objects={
             "K": K,
         })
         # model = load_model(os.path.join(settings.BASE_DIR, "model/model_sub_8.h5"))
