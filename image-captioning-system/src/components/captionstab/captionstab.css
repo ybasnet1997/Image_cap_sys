@@ -1,0 +1,58 @@
+.captionstab__capfrm {
+    position: absolute;
+    width: 491px;
+    height: 133px;
+    left: 477px;
+    top: 0px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 1px 11px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+}
+
+.captionstab__capfrm-txtcont {
+    position: absolute;
+    width: 490px;
+    height: 41px;
+    left: 0px;
+    top: 10px;
+    text-align: center;
+}
+
+.captionstab__capfrm-txt {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 163.9%;
+    /* identical to box height, or 41px */
+}
+
+.captionstab__capfrm-cap {
+    position: absolute;
+    width: 450px;
+    height: 55px;
+    left: calc(50% - 450px/2);
+    top: 50px;
+
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 127.9%;
+    /* or 23px */
+
+    text-align: center;
+
+    color: #3E3E3E;
+
+}
+
+.captionstab__bl {
+    color: #096192;
+}
+
+.captionstab__gr {
+    color: #0E8C7F;
+}

@@ -1,0 +1,69 @@
+.footer3__sec1 {
+    position: absolute;
+    left: 72.01%;
+    right: 9.93%;
+    top: 28%;
+    bottom: 62.25%;
+}
+
+.footer3__sec1-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 195.9%;
+}
+
+.footer3__sec2-icon {
+    position: absolute;
+    width: 24px;
+    height: 30px;
+    left: 1050.6px;
+    top: 184px;
+}
+
+.footer3__sec2-textCont {
+    position: absolute;
+    left: 73.82%;
+    right: 9.93%;
+    top: 42.25%;
+    bottom: 50%;
+}
+
+.footer3__sec2-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 195.9%;
+    /* or 31px */
+
+
+    color: #6B6B6B;
+}
+
+.footer3__sec3-icon {
+    position: absolute;
+    width: 26px;
+    height: 30px;
+    left: 1050.6px;
+    top: 260px;
+
+}
+
+.footer3__sec3-textCont {
+    position: absolute;
+    left: 73.82%;
+    right: 14.44%;
+    top: 61.5%;
+    bottom: 32.25%;
+}
+
+.footer3__sec3-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 195.9%;
+    color: #6B6B6B;
+}

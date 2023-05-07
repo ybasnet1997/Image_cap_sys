@@ -1,0 +1,20 @@
+.header__bar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 45px 659px;
+    gap: 10px;
+
+    position: absolute;
+    width: 1439px;
+    height: 190.4px;
+    left: 0px;
+    top: 0px;
+
+    background: #F9F9F9;
+}
+
+.header__bar-logo {
+    width: 121px;
+    height: 100.4px;
+}

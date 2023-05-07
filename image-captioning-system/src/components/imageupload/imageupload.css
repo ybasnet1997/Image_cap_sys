@@ -1,0 +1,131 @@
+.enclose__rect {
+    box-sizing: border-box;
+
+    width: 465px;
+    height: 315px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    overflow: hidden;
+}
+
+.upload__cloud {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px 0px;
+    gap: 10px;
+
+    width: (1400/2)px;
+    height: 100px;
+    
+}
+
+.upload__text {
+    position: absolute;
+    width: 455px;
+    height: 30px;
+    left: calc(50% - 455px/2 + 0.5px);
+    top: calc(50% - 30px/2 - 9px);
+
+    opacity: 0.2;
+}
+
+.upload__text-text {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 163.9%;
+    /* identical to box height, or 30px */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.upload__textor {
+    position: absolute;
+    width: 455px;
+    height: 30px;
+    left: calc(50% - 455px/2 + 0.5px);
+    top: calc(50% - 30px/2 + 29.5px);
+
+    opacity: 1;
+}
+
+.upload__textor-text {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 163.9%;
+    /* or 33px */
+
+    text-align: center;
+
+    color: #0E8C7F;
+}
+
+.button__frame {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 5px 0px;
+    gap: 10px;
+
+    position: absolute;
+    width: 360px;
+    height: 53px;
+    left: 62.5px;
+    top: 234px;
+}
+
+.button__frame-button {
+    width: 360px;
+    height: 53px;
+    padding: 0px 0px;
+
+    border: none;
+    background: #096192;
+    border-radius: 9px;
+    appearance: none;
+    transition: ease-out 0.3s;
+}
+
+.button__frame-button:hover {
+    background: #0E8C7F;
+    transition: ease-in 0.3s;
+}
+
+.button__frame-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 195.9%;
+    /* identical to box height, or 43px */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}

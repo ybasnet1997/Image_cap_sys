@@ -1,0 +1,45 @@
+.footer__main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    position: absolute;
+    width: 1460px;
+    height: 410px;
+    left: -10px;
+    top: 868px;
+}
+
+.footer__main-cont {
+    width: 1440px;
+    height: 400px;
+
+    background: #F9F9F9;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+.footer__main-disclaim {
+    position: absolute;
+    left: -0.07%;
+    right: 0%;
+    top: 84%;
+    bottom: 9.75%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 195.9%;
+    /* or 31px */
+
+    text-align: center;
+
+    color: #ABABAB;
+
+}

@@ -1,0 +1,5 @@
+image_captioning_backend/caption_generator_send/model/
+image_caption_auth/node_modules
+.env
+__pycache__
+*.pyc

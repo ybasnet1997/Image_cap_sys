@@ -1,0 +1,288 @@
+.login__form-frame {
+    position: absolute;
+    width: 466px;
+    height: 529px;
+    left: calc(50% - 466px/2);
+    top: calc(50% - 529px/2 - 0.5px);
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 41px rgba(0, 0, 0, 0.25);
+    border-radius: 21px;
+}
+
+.login__form-imgframe {
+    position: absolute;
+    width: 65.62px;
+    height: 52.12px;
+    left: calc(51% - 65.62px / 2 - 0.5px);
+    top: calc(50% - 52.12px / 2 - 207.94px);
+}
+
+.login__form-imgframe img {
+    width: 100%; 
+    height: 100%;
+}
+
+.login__form-login {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+
+    position: absolute;
+    width: 158px;
+    height: 95px;
+    left: 159px;
+    top: 88px;
+}
+
+.login__input-form {
+    position: absolute;
+    top: 197px;
+    left: 36px;
+}
+
+.login__email-frame {
+    position: absolute;
+    width: 150px;
+    height: 33px;
+    left: 10px;
+    top: 10px;
+}
+
+.login__email-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 163.9%;
+}
+
+.login__bl {
+    color: #096192;
+}
+
+.login__gr {
+    color: #0E8C7F;
+}
+
+.login__form-login-txt {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 163.9%;
+    /* or 75px */
+
+    text-align: center;
+
+}
+
+.login__email-input {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 369px;
+    height: 38px;
+    left: 10px;
+    top: 53px;
+
+    background: #FFFFFF;
+    border: 1px solid #D3D3D3;
+    border-radius: 7px;
+}
+
+.login__password-input {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 369px;
+    height: 38px;
+    left: 0px;
+    top: 44px;
+
+    background: #FFFFFF;
+    border: 1px solid #D3D3D3;
+    border-radius: 7px;
+}
+
+.input[type=password] {
+    padding-left: 15px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 195.9%;
+    /* or 31px */
+
+    color: #000000;
+}
+
+input[type=text] {
+    padding-left: 15px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 195.9%;
+    /* or 31px */
+
+    color: #000000;
+}
+
+input[type="password"]::placeholder {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 195.9%;
+    
+    /* or 31px */
+
+    color: #ABABAB;
+}
+
+input[type="password"] {
+    padding-left: 15px;
+    font-family: 'oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 195.9%;
+    /* or 31px */
+
+    color: #000000;
+}
+
+
+.login__password-frame {
+    position: absolute;
+    width: 379px;
+    height: 53px;
+    left: 48px;
+    top: 318px;
+
+}
+
+.login__password-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 163.9%;
+}
+
+.login__button-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+
+    position: absolute;
+    width: 389px;
+    height: 76px;
+    left: 38px;
+    top: 426px;
+}
+
+.login__button-login {
+    width: 369px;
+    height: 56px;
+
+    background-color: #096192;
+    box-sizing: border-box;
+    border: 2px solid;
+    border-radius: 9px;
+
+    /* or 35px */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 195.9%;
+    text-align: center;
+    transition: ease-out 0.3s;
+
+    color: #ffffff;
+}
+
+.login__button-login:hover {
+    background-color: #0E8C7F;
+}
+
+.us__error {
+    position: absolute;
+    width: 350px;
+    height: 44px;
+    left: 12px;
+    top: 91.8px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 195.9%;
+    /* or 24px */
+
+
+    color: #B40000;
+    opacity: 0.8;
+
+}
+
+.password__error {
+    position: absolute;
+    width: 100%;
+    height: 44px;
+    left: 0px;
+    top: 83px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 195.9%;
+    /* or 24px */
+
+
+    color: #B40000;
+    opacity: 0.8;
+}
+
+.errorlog {
+    position: fixed;
+    left: 806.5px;
+    top: 790px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+
+.errorlog.show {
+    opacity: 1;
+}
+  
+.errorlog.hide {
+    opacity: 0;
+}
+
+.serverroer {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.serverroer.show {
+    opacity: 1;
+    z-index: 9999;
+}
+  
+.serverroer.hide {
+    opacity: 0;
+    z-index: -1;
+    pointer-events: none;
+}
+
+

@@ -1,0 +1,376 @@
+.before__upload-mainframe {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+
+    position: absolute;
+    width: 941px;
+    height: 121px;
+    left: 250px;
+    top: 245px;
+    overflow: hidden;
+}
+
+.before__upload-mainparent {
+    width: 921px;
+    height: 101px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.inform {
+    position: absolute;
+    width: 227px;
+    height: 22px;
+    left: 598px;
+    top: 370px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.point {
+    position: absolute;
+    width: 10.67px;
+    height: 10.24px;
+    left: 8.72px;
+    top: 5.67px;
+    opacity: 0.4;
+}
+
+.informer {
+    position: absolute;
+    left: 25px;
+    top: 1px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 163.9%;
+    /* or 20px */
+
+
+    color: #37474F;
+}
+
+.before__upload-maintext {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 117.4%;
+    /* or 54px */
+
+text-align: center;
+}
+
+.before__upload-subframe {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+
+    position: absolute;
+    width: 1460px;
+    height: 50px;
+    left: -10px;
+    top: 388px;
+
+}
+
+.before__upload-subparent {
+    width: 1440px;
+    height: 30px;
+
+    opacity: 1;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.before__upload-subtext {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 163.9%;
+    /* or 41px */
+
+    text-align: center;
+}
+
+.upload__form-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+
+    position: absolute;
+    width: 485px;
+    height: 335px;
+    left: 478px;
+    top: 90px;
+}
+
+.before__upload-text-bl {
+    color: #096192;
+}
+
+
+.before__upload-text-gr {
+    color: #0E8C7F;
+}
+
+.before__upload-text-bl1 {
+    color: #096192;
+    font-weight: 800;
+}
+
+
+.before__upload-text-gr1 {
+    color: #0E8C7F;
+    font-weight: 900;
+}
+
+.before__upload-text-rd1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 94.4%;
+    /* or 14px */
+
+    text-transform: uppercase;
+
+    color: #B40000;
+    opacity: 0.90;
+}
+
+.attention__main {
+    position: absolute;
+    top: 78px;
+    width: 0px;
+    transition: ease-in-out 1.5s;
+    opacity: 1;
+    z-index: -2;
+    transition-delay: 1s;
+}
+
+.attention__main:hover {
+    top: 24px;
+    opacity: 1;
+    z-index: -2;
+    transition: ease-in-out 0.2s;
+}
+
+.rightArr_bef {
+    position: fixed;
+    width: 18px;
+    height: 35px;
+    left: 900px;
+    top: 435px;
+    z-index: 1;
+    transition: ease-in-out 5s;
+    opacity: 0;
+}
+
+.rightArr_bef:hover {
+    opacity: 1;
+    transition: ease-in-out 0.3s;
+    transform: scale(1.04);
+}
+
+.leftArr_bef {
+    position: fixed;
+    width: 17px;
+    height: 36px;
+    left: 505px;
+    top: 435px;
+    z-index: 1;
+    transition: ease-in-out 5s;
+    opacity: 0;
+}
+
+.leftArr_bef:hover {
+    opacity: 1;
+    transition: ease-in-out 0.3s;
+    transform: scale(1.04);
+}
+
+.attention__main-rect {
+    position: relative;
+    width: 344px;
+    height: 85px;
+    left: 538px;
+    /* top: -25px; */
+    background: #F4F4F4;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    z-index: -1;
+    transition: ease-in-out 1s;
+}
+
+.attention__main-rect:hover {
+    background: #ffffff;
+    transition: ease-in-out 0.3s;
+}
+
+.attention__main-text {
+    position: absolute;
+    width: 286px;
+    height: 34px;
+    left: 22px;
+    top: 22px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 15px;
+    line-height: 94.4%;
+    /* or 14px */
+
+    text-transform: uppercase;
+
+    color: #096192;
+
+    opacity: 0.99;
+}
+
+.check {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 295px;
+    top: 22px;
+    transition: ease-in-out 0.3s;
+}
+
+.check:hover {
+    scale: 1.2;
+}
+
+.reg-model {
+    position: absolute;
+    width: 187px;
+    height: 27px;
+    left: 619.5px;
+    top: 413.25px;
+
+    background: #096192;
+    border-radius: 5px;
+
+    z-index: -2;
+}
+
+.checkMsg {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 13px;
+    top: 7.5px;
+}
+
+.reg-model-txt {
+    position: absolute;
+    width: 150px;
+    height: 20px;
+    left: 31px;
+    top: 4.5px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 163.9%;
+    /* identical to box height, or 20px */
+
+
+    color: #FFFFFF;
+
+}
+
+.att-model {
+    position: absolute;
+    width: 199px;
+    height: 27px;
+    left: 614.5px;
+    top: 413.25px;
+
+    background: #0E8C7F;
+    border-radius: 5px;
+    z-index: -2;
+}
+
+.att-model-txt {
+    position: absolute;
+    width: 160px;
+    height: 20px;
+    left: 31px;
+    top: 4.5px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 163.9%;
+    /* identical to box height, or 20px */
+
+
+    color: #FFFFFF;
+}
+
+.nep-model {
+    position: absolute;
+    width: 306px;
+    height: 27px;
+    left: 557px;
+    top: 413.25px;
+
+    background: #B40000;
+    border-radius: 5px;
+    z-index: -2;
+}
+
+.nep-model-txt {
+    position: absolute;
+    width:  263px;
+    height: 20px;
+    left: 32.5px;
+    top: 4.5px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 163.9%;
+    /* identical to box height, or 20px */
+
+
+    color: #FFFFFF;
+}
+

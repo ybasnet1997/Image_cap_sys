@@ -1,0 +1,22 @@
+## Model Selection  
+*We used four different SOTA models for image feature extraction which include
+* EfficientNet B4
+* VGG 16
+* ResNet 50
+* Inception V3
+
+**Given below are the BLEU Scores for Flickr8k and Flickr30k datasets:**  
+
+| **Model**|**Dataset**|**Bleu-1 Score**|**Bleu-2 Score**|**Bleu-3 Score**|**Bleu-4 Score**|**Notebook Link**|
+| :----:|:----:|:----:|:----:|:----:|:----:| :----: |
+| EfficientNet B4| *Flickr8K*| 0.590557  |0.364770  |0.237044  |0.146666  |https://github.com/Just-5-Stars/Image-Caption-Generator/blob/main/miscellaneous/efficientnet-flickr8k.ipynb  |
+| Resnet50       | *Flickr8K*| 0.557725  |0.332924  |0.210045  |0.121752 |https://github.com/Just-5-Stars/Image-Caption-Generator/blob/main/miscellaneous/resnet50-flickr8k.ipynb  |
+| VGG 16         | *Flickr8K*|0.526105  |0.299053  |-  |-  |https://github.com/Just-5-Stars/Image-Caption-Generator/blob/main/miscellaneous/image-captioning-flickr8k.ipynb  |
+| Inception V3   | *Flickr8k*| 0.432056  |0.188727  |0.104808  |0.053587 |https://github.com/Just-5-Stars/Image-Caption-Generator/blob/main/miscellaneous/inceptionv3-flickr8k.ipynb  |
+| EfficientNet B4| *Flickr30K*| 0.591614  |0.350487  |0.219173  |0.129545 |https://github.com/Just-5-Stars/Image-Caption-Generator/blob/main/miscellaneous/efficientnet-flickr30k%20(2).ipynb  |
+| Resnet50       | *Flickr30K*| 0.571551  |0.320197  |0.194258  | 0.109866  |https://github.com/Just-5-Stars/Image-Caption-Generator/blob/main/miscellaneous/resnet50-flickr30k%20(2).ipynb |
+| VGG 16         | *Flickr30K*| 0.541007  |0.296905  |0.194258  | 0.109866 |https://github.com/Just-5-Stars/Image-Caption-Generator/blob/main/miscellaneous/VGG-flickr30k.ipynb  |
+| Inception V3   | *Flickr30K*| 0.469754  | 0.209127  |0.112608  |0.054758 |https://github.com/Just-5-Stars/Image-Caption-Generator/blob/main/miscellaneous/inceptionv3-flickr30k.ipynb  |
+
+**Since EfficientNet B4 gave the best BLEU Score.**  
+**Selected Model Architechture: EfficientNet B4 + LSTM**

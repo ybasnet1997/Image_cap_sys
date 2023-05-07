@@ -1,0 +1,11 @@
+.login-frame {
+    position: relative;
+    width: 1440px;
+    height: 1000px;
+    overflow: hidden;
+    background-color: #096192;
+}
+
+/* ::placeholder {
+    color: #ABABAB;
+} */

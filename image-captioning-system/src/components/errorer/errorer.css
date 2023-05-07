@@ -1,0 +1,33 @@
+.errorer__entire {
+    position: absolute;
+    width: 407px;
+    height: 60px;
+    left: calc(50% - 290px);
+
+    background: #FFBEBE;
+    border-radius: 9px;
+}
+
+.errorer__warn {
+    position: absolute;
+    left: 21.53px;
+    top: 15.37px;
+}
+
+.erroer__text {
+    position: absolute;
+    width: 322px;
+    height: 30px;
+    left: 66px;
+    top: 14px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 163.9%;
+    /* identical to box height, or 30px */
+
+
+    color: #B40000;
+}

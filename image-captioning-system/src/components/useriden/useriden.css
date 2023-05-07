@@ -1,0 +1,114 @@
+.useriden__comp {
+    position: fixed;
+    width: 284px;
+    left: -500px;
+}
+
+.useriden__box {
+    position: fixed;
+    width: 284px;
+    height: 138px;
+    left: 1167px;
+    top: 211px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.useriden__bar {
+    position: fixed;
+    width: 15px;
+    height: 138px;
+    left: 1370.4px;
+    top: 211px;
+    z-index: 1;
+    background: #0E8C7F;
+}
+
+.useriden__name {
+    position: fixed;
+    width: 243px;
+    height: 39px;
+    left: 1190px;
+    top: 220px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 195.9%;
+    /* or 43px */
+
+}
+
+.useriden__bl {
+    color: #096192;
+}
+
+.useriden__gr {
+    color: #0E8C7F;
+}
+
+.useriden__email {
+    position: fixed;
+    width: 243px;
+    height: 25px;
+    left: 1190px;
+    top: 245px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 195.9%;
+    /* or 22px */
+
+
+    color: #6B6B6B;
+}
+
+.useriden__butt {
+    box-sizing: border-box;
+
+    position: fixed;
+    width: 149px;
+    height: 35px;
+    left: 1190px;
+    top: 289px;
+
+    border: 2px solid #0E8C7F;
+    transition: ease-out 0.3s;
+    border-radius: 7px;
+    background:rgba(255, 255, 255, 0.25)
+}
+
+.useriden__logout {
+    position: fixed;
+    font-family: 'Montserrat';
+    font-style: normal;
+    width: 149px;
+    height: 35px;
+    left: 1190px;
+    top: 292.5px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 195.9%;
+    /* or 29px */
+
+    text-align: center;
+    transition: ease-out 0.3s;
+
+    color: #0E8C7F;
+}
+
+.useriden__logout:hover {
+    color: #FFFFFF;
+    transition: ease-in 0.3s;
+}
+
+.useriden__butt:hover {
+    color: #FFFFFF;
+    background: #0E8C7F;
+    transition: ease-in 0.3s;
+}

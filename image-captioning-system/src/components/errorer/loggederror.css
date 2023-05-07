@@ -1,0 +1,86 @@
+.logged__main {
+    overflow: hidden;
+}
+
+.logged__blackbg {
+    position: fixed;
+    width: 1440px;
+    height: 1000px;
+    left: 0px;
+    top: 0px;
+
+    background: #000000;
+    opacity: 0.44;
+}
+
+.logged__error {
+    position: fixed;
+    width: 522.3px;
+    height: 323.4px;
+    left: 453.7px;
+    top: 330px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 1px 11px rgba(255, 255, 255, 0.25);
+    border-radius: 7px;
+}
+
+.logged__img {
+    position: fixed;
+    width: 152.17px;
+    height: 137.5px;
+    left: 645.67px;
+    top: 377px;
+}
+
+.logged__text {
+    position: fixed;
+    width: 522px;
+    height: 85px;
+    left: 454px;
+    top: 530px;
+}
+
+.logged__red {
+    position: absolute;
+    width: 522px;
+    height: 65px;
+    left: 0px;
+    top: 10px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 153.4%;
+    /* or 40px */
+
+    text-align: center;
+
+    color: #B40000;
+}
+
+.logged__rest {
+    position: absolute;
+    width: 522px;
+    height: 65px;
+    left: 0px;
+    top: 50px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 153.4%;
+    /* or 28px */
+
+    text-align: center;
+}
+
+.logged__bl {
+    color: #096192;
+}
+
+.logged__gr {
+    color: #0E8C7F;
+}
