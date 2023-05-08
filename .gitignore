@@ -3,3 +3,5 @@ image_caption_auth/node_modules
 .env
 __pycache__
 *.pyc
+image_caption_auth/*
+image_captioning_backend/*
