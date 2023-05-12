@@ -9,9 +9,6 @@ import v3 from '../../assets/v4.png';
 import redi from '../../assets/cardLoc.png';
 
 const Homepage = () => {
-
-
-
   return (
     <div className='home__main'>
         <Headermain />

@@ -30,7 +30,7 @@ const App = () => {
           <Route path="/home" element={<Homepage />} />
 
           {/* Catch-all route */}
-          <Route path="/*" element={<Navigate to="/signup" />} />
+          <Route path="/*" element={<Navigate to="/home" />} />
         </Routes>
       </div>
     </Router>
