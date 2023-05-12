@@ -18,7 +18,7 @@ const Useriden = ({ firstName, lastName, email }) => {
     
       if (response.data.message) {
         console.log("Success!");
-        navigate('/signup', { replace: true });
+        navigate('/home', { replace: true });
       } else {
         console.log("Error Occured");
       }
