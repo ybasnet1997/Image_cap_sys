@@ -16,3 +16,6 @@ export { default as Errorer1 } from './errorer/Errorer1';
 export { default as Serverroer } from './errorer/Serverroer';
 export { default as Loggederror } from './errorer/Loggederror';
 export { default as Useriden } from './useriden/Useriden';
+export { default as Regularapp } from './approaches/Regularapp';
+export { default as Attentionapp } from './approaches/Attentionapp';
+export { default as Nepaliapp } from './approaches/Nepaliapp';
