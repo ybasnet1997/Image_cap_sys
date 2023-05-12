@@ -1,0 +1,63 @@
+.attentionapp-cont {
+    position: absolute;
+    left: -118px;
+}
+
+
+.attentionApp-head {
+    position: absolute;
+    width: 713px;
+    height: 39px;
+    left: 585px;
+}
+
+.attentionApp-head-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 195.9%;
+    /* or 47px */
+
+    text-align: center;
+}
+
+.attentionApp-body {
+    position: relative;
+    width: 749px;
+    height: 113px;
+    left: 467px;
+    top: 59px;
+}
+
+.attentionApp-body-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 195.9%;
+    /* or 31px */
+
+    text-align: center;
+
+    color: #6B6B6B;
+}
+
+.attentionApp-img {
+    position: absolute;
+    left: 565px;
+    top: 230px; 
+}
+
+.attentionApp-img-img {
+    width: 546.05px;
+    height: 499.65px;
+}
+
+.att-bl {
+    color: #096192;
+}
+
+.att-gr {
+    color: #0E8C7F;
+}

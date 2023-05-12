@@ -1,0 +1,64 @@
+.nepaliapp-cont {
+    position: absolute;
+    left: -118px;
+    align-items: center;
+}
+
+
+.nepaliApp-head {
+    position: absolute;
+    width: 713px;
+    height: 39px;
+    left: 638px;
+}
+
+.nepaliApp-head-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 195.9%;
+    /* or 47px */
+
+    text-align: center;
+}
+
+.nepaliApp-body {
+    position: relative;
+    width: 713px;
+    height: 113px;
+    left: 485px;
+    top: 59px;
+}
+
+.nepaliApp-body-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 195.9%;
+    /* or 31px */
+
+    text-align: center;
+
+    color: #6B6B6B;
+}
+
+.nepaliApp-img {
+    position: absolute;
+    left: 565px;
+    top: 230px; 
+}
+
+.nepaliApp-img-img {
+    width: 546.05px;
+    height: 499.65px;
+}
+
+.nep-bl {
+    color: #096192;
+}
+
+.nep-gr {
+    color: #0E8C7F;
+}
