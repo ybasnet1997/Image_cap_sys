@@ -5,7 +5,7 @@ __pycache__
 *.pyc
 image_caption_auth/authServer.js
 image_captioning_backend/core
-image-captioning-system/src/assets/*
+
 
 
 
