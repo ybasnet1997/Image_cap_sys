@@ -9,6 +9,9 @@ import v3 from '../../assets/v4.png';
 import redi from '../../assets/cardLoc.png';
 
 const Homepage = () => {
+
+
+
   return (
     <div className='home__main'>
         <Headermain />
@@ -28,7 +31,7 @@ const Homepage = () => {
                 </div>
 
                 <div className='home__panel1-butt'>
-                    <button className='home__panel1-capt' style={{ cursor: 'pointer' }}>Caption</button>
+                    <button className='home__panel1-capt' style={{ cursor: 'pointer' }}><a href = "/signup">Caption</a></button>
                     <button className='home__panel1-about' style={{ cursor: 'pointer' }}>About Us</button>
                 </div>
             </div>

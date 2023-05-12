@@ -6,7 +6,7 @@ const Headermain = () => {
   return (
     <div className='header__bar'>
       <div className='header__bar-logo'>
-        <img src = {logo} alt = "logo" />
+        <a href='/signup'><img src = {logo} alt = "logo" /></a>
       </div>
     </div>
   )
