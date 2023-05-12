@@ -3,9 +3,9 @@ import { Beforeuploadpg } from './pages';
 import { Afteruploadpg } from './pages';
 import { Login, Homepage } from './pages';
 import { Signingup } from './pages';
-import { Loader } from './components';
+import { Aboutproject } from './pages';
 import { Captionstab } from './components';
-import { Bettercaption, Bettercaption1, Bettercaption2, Bettercaption3, Errorer, Serverroer, Regularapp, Attentionapp, Nepaliapp } from './components';
+import { Bettercaption, Bettercaption1, Bettercaption2, Bettercaption3, Errorer, Serverroer } from './components';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 
@@ -28,9 +28,7 @@ const App = () => {
           <Route path="/tempError" element={<Errorer />} />
           <Route path="/tempError1" element={<Serverroer />} />
           <Route path="/home" element={<Homepage />} />
-          <Route path="/regtemp" element={<Regularapp />} />
-          <Route path="/attemp" element={<Attentionapp />} />
-          <Route path="/neptemp" element={<Nepaliapp />} />
+          <Route path="/projects" element={<Aboutproject />} />
 
           {/* Catch-all route */}
           <Route path="/*" element={<Navigate to="/home" />} />

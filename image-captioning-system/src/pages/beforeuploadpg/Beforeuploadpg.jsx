@@ -16,7 +16,7 @@ const Beforeuploadpg = () => {
   return (
     <>
       <div>
-      <Useriden firstName={firstName} lastName={lastName} email={email} />
+        <Useriden firstName={firstName} lastName={lastName} email={email} />
       </div>
       <div>
         <Headermain />
