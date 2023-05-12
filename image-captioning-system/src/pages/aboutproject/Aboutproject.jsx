@@ -3,9 +3,13 @@ import { useState } from 'react';
 import './aboutproject.css';
 import { Footermain, Headermain } from '../../containers';
 import {  Attentionapp, Nepaliapp, Regularapp } from '../../components';
+import queryString from 'query-string';
+import { useLocation } from 'react-router-dom';
 
 const Aboutproject = () => {
-  const [index, setIndex] = useState(0);
+  const location = useLocation();
+  const { index } = queryString.parse(location.search);
+  const [currentIndex, setIndex] = useState(index !== undefined ? parseInt(index) : 0);
 
   function v1Click() {
     setIndex(0);
@@ -40,8 +44,8 @@ const Aboutproject = () => {
             className='aboutProj-version1'
             style={{
               cursor: 'pointer',
-              background: index === 0 ? '#096192' : '',
-              color: index === 0 ? '#FFFFFF' : ''
+              background: currentIndex === 0 ? '#096192' : '',
+              color: currentIndex === 0 ? '#FFFFFF' : ''
             }}
             onClick={v1Click}
           >
@@ -52,8 +56,8 @@ const Aboutproject = () => {
             className='aboutProj-version2'
             style={{
               cursor: 'pointer',
-              background: index === 1 ? '#096192' : '',
-              color: index === 1 ? '#FFFFFF' : ''
+              background: currentIndex === 1 ? '#096192' : '',
+              color: currentIndex === 1 ? '#FFFFFF' : ''
             }}
             onClick={v2Click}
           >
@@ -64,8 +68,8 @@ const Aboutproject = () => {
             className='aboutProj-version3'
             style={{
               cursor: 'pointer',
-              background: index === 2 ? '#096192' : '',
-              color: index === 2 ? '#FFFFFF' : ''
+              background: currentIndex === 2 ? '#096192' : '',
+              color: currentIndex === 2 ? '#FFFFFF' : ''
             }}
             onClick={v3Click}
           >
@@ -73,9 +77,9 @@ const Aboutproject = () => {
         </button>
       </div>
       <div className='aboutProj-versionInfo'>
-        {index === 0 && <Regularapp />}
-        {index === 1 && <Attentionapp />}
-        {index === 2 && <Nepaliapp />}
+        {currentIndex === 0 && <Regularapp />}
+        {currentIndex === 1 && <Attentionapp />}
+        {currentIndex === 2 && <Nepaliapp />}
       </div>
 
       <div className='aboutProj-footer'>

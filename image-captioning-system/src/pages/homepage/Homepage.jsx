@@ -7,6 +7,7 @@ import v1 from '../../assets/v1.png';
 import v2 from '../../assets/v2.png';
 import v3 from '../../assets/v4.png';
 import redi from '../../assets/cardLoc.png';
+import { useNavigate } from 'react-router-dom';
 
 const Homepage = () => {
   return (
@@ -29,7 +30,7 @@ const Homepage = () => {
 
                 <div className='home__panel1-butt'>
                     <button className='home__panel1-capt' style={{ cursor: 'pointer' }}><a href = "/signup">Caption</a></button>
-                    <button className='home__panel1-about' style={{ cursor: 'pointer' }}>About Us</button>
+                    <button className='home__panel1-about' style={{ cursor: 'pointer' }}><a href = "/projects">About Us</a></button>
                 </div>
             </div>
             <div className='image__cont'>
@@ -71,7 +72,7 @@ const Homepage = () => {
                     <img src={ v1 } className='head__body-card1-i'></img>
                     <t className='version1'>
                         <t className='home__bl'>Version </t><t className='home__gr'>1</t>
-                        <a href='#' className='v1-desc'>Learn About V1</a>
+                        <a href="/projects?index=0" className='v1-desc'>Learn About V1</a>
                         <img src={ redi } className='red-arr'></img>
                     </t>
                 </div>
@@ -79,7 +80,7 @@ const Homepage = () => {
                     <img src={ v2 } className='head__body-card1-i1'></img>
                     <t className='version2'>
                         <t className='home__bl'>Version </t><t className='home__gr'>2</t>
-                        <a href='#' className='v1-desc'>Learn About V2</a>
+                        <a href="/projects?index=1" className='v1-desc'>Learn About V2</a>
                         <img src={ redi } className='red-arr'></img>
                     </t>
                 </div>
@@ -87,7 +88,7 @@ const Homepage = () => {
                     <img src={ v3 } className='head__body-card1-i3'></img>
                     <t className='version3'>
                         <t className='home__bl'>Version </t><t className='home__gr'>3</t>
-                        <a href='#' className='v1-desc'>Learn About V3</a>
+                        <a href="/projects?index=2" className='v1-desc'>Learn About V3</a>
                         <img src={ redi } className='red-arr'></img>
                     </t>
                 </div>
