@@ -190,14 +190,14 @@ text-align: center;
 }
 
 .rightArr_bef {
-    position: fixed;
+    position: absolute;
     width: 18px;
     height: 35px;
-    left: 900px;
-    top: 435px;
+    left: 364px;
+    top: 22px;
     z-index: 1;
-    transition: ease-in-out 5s;
-    opacity: 0;
+    transition: ease-in-out 0.6s;
+    opacity: 0.6;
 }
 
 .rightArr_bef:hover {
@@ -207,14 +207,14 @@ text-align: center;
 }
 
 .leftArr_bef {
-    position: fixed;
+    position: absolute;
     width: 17px;
     height: 36px;
-    left: 505px;
-    top: 435px;
+    left: -35px;
+    top: 22px;
     z-index: 1;
-    transition: ease-in-out 5s;
-    opacity: 0;
+    transition: ease-in-out 0.6s;
+    opacity: 0.6;
 }
 
 .leftArr_bef:hover {
